@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'gilroy-h';
+  src: url('./assets/Gilroy-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'jet';
+  src: url('./assets/JetBrainsMono-Regular.ttf') format('truetype');
+}
+
+@theme {
+  --font-gilroy-h: "gilroy-h";
+  --font-jet: "jet";
+
+}
+
